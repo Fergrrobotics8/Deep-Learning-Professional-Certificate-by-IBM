@@ -1,1 +1,1 @@
-# Deep-Learning-by-IBM
+# Deep Learning by IBM
