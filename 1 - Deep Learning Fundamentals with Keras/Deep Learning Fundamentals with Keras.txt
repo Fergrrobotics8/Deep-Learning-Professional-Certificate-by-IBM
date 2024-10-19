@@ -1,0 +1,21 @@
+Sigmoid activation function suffers from Vanishing gradient problem in the hidden layers, making the initial layers not learn almost. Discarded for hidden layers nowadays.
+Instead ReLU activation function is much more used.
+SoftMax activation function is often used for the output layer, so the sum of all the output neuron layers is 1.
+
+Popular Deep Learning Libraries
+TensorFlow (google), Keras (easiest one) and Pytorch (strongest one and best)
+
+for minimization algorithm best one used is called adam, as gradient descent is worse.
+And for loss error calculation, we use mean squared error.
+
+We have a set for learning, and with that we use the predictors and the target as the output.
+
+Convolutional Neural Networks (CNNs) for images:
+Convolutional layer, max-pooling layer, flatten layer, fully connected nodes dense layer, output layer
+
+Recurrent Neural Networks (RNNs) for videos:
+LSTM model for image generation, handwriting, automatic captioning, automatic description of videos.
+
+
+CNN and RNN are supervised neural networks. Autoencoders is an unsupervised NN that can determine the best propagation functions to determine the output, based on backpropagation instead of supervised NN that recieve the functions from humans.
+RBMs Restricted Boltzmann Machines can be used to fixing imbalanced datasets, estimating missing values and automatic feature extraction.
